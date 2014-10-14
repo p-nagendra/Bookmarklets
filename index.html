@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head>	<meta charset="UTF-8">	<title>BookMarks</title></head><body>	
+		<h1>BookMarkletss</h1>
+		
+		<div>
+		<h4> Show QR For the Current URL </h4>
+		Drag the following link  to  your  bookmarks toolbar   and  enjoy! <br/>
+		when ever you want QR Code for any of the site you visiting,  just click  on ShowQR  link  on the Bookmarks Toolbar.
+		
+		<a href="javascript:(function(){function showQR(){var _qr_img='https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl='+encodeURIComponent(window.location.href);var im=document.createElement('img');im.src=_qr_img;im.setAttribute('style','max-width:100%');a=document.createElement('DIV');a.setAttribute('id','showqrdiv');a.appendChild(im);var cl=document.createElement('a');cl.innerHTML='close';cl.setAttribute('id','qrclose');cl.setAttribute('style','font: bold 12px arial;position: absolute;right:0;background: #000;top:0;color: #fff;text-align: center;padding: 2px;text-decoration: none;box-shadow: 0 1px 3px rgba(0,0,0,0.3);');cl.href='#';a.appendChild(cl);a.setAttribute('style','position:absolute;top:30%;left:30%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,0.3);width:300px;height:300px;z-index:9999999');document.body.appendChild(a);cl.onclick=function(){event.preventDefault();var e=document.getElementById('showqrdiv');document.body.removeChild(e);};};showQR();})();" id='showqr'>ShowQR</a>
+		</div>
+<script>
+
+
+
+</script>	
+</body>
+</html>
